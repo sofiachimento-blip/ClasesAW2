@@ -1,0 +1,1 @@
+console.log('EJECUCION SCRIPT EN EL FRONT')
