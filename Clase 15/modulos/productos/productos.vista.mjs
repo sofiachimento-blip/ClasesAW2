@@ -1,10 +1,10 @@
-function obtenerProductos(datos){
-    datos.map((dato)=> {
+export function obtenerProductos(datos){
+    return datos.map((dato)=> {
         return{
             "id": dato.id,
             "franquicia": dato.franquicia,
             "valor": dato.valor,
-            "color": "#860038",
+            "color": dato.color
             
         }
     })
