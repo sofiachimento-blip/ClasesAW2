@@ -5,8 +5,8 @@ export function obtenerProductos(){
     return productos
 }
 
-export function obtenerProductos(id){
-    //filtramos
-    const producto = productos.filter() 
-    return productos 
+export function obtenerProducto(id) {
+    // Filtramos
+    const producto = productos.filter(producto => producto.id === id)
+    return producto
 }
